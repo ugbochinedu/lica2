@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+}
+
+.landingpage-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: linear-gradient(to right, #397aab85 10%,#92253ed3 90%), 
+                url(../image/dots.png), 
+                url(../image/LicaMoneyTransfer-removebg-preview.png),
+                url(../image/Lica-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**************NAVIGATION BAR******/
+
+ul {
+    list-style: none;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lica-navbar {
+    width: inherit;
+    height: 80px;
+    background-color: #8e0026a4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items ul {
+    width: 580px;
+    padding-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.about-dropdown{
+    display: flex;
+}
+
+#about {
+    border: none;
+    background-color: inherit;
+    color: white;
+    outline: none;
+}
+
+#lica-img {
+    height: 60px;
+    width: 200px;
+}
+
+/**************body description*********/
+
+.description-container{
+    width: 90vw;
+    margin: auto;
+}
+
+.login_details{
+    display: grid;
+    justify-content: end;
+    color: white;
+    padding-top: 10px;
+}
+
+.no_account{
+    display: grid;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+.no_account a {
+    text-decoration: none;
+    color: white;
+}
+
+#form_login_details label {
+    padding: 0px 10px;
+}
+
+#user, #password  {
+    outline: none;
+    padding: 7px 0px 3px 5px;
+    box-shadow: 1px 1px 3px 1px #a1a1a186 inset;
+    border-radius: 5px;
+    border-color: #67434ec9;
+    font-size: 14px;
+}
+
+#password {
+    margin-right: 10px;
+}
+
+#form_login_details a {
+    text-decoration: none;
+    color: white;
+}
+
+.login_details button {
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(to top, #523165 50%, #4E458D 80%, #23A9B8 96%)
+}
+
+/******  FORM AND WRITE-UP*********/
+
+.container_apply_form {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.fast_easy{
+    width: 470px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.fast_easy h1{
+    font-size: 70px;
+}
+.fast_easy p {
+    font-size: 25px;
+}
+
+.fast_easy a {
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(55,131,186);
+}
+
+.fast_easy h2{
+    width: 180px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 22px;
+    text-align: center;
+    padding: 3px 0px;
+    margin-top: 20px;
+}
+
+.apply_form {
+    width: 380px;
+    padding: 25px 22px 50px;
+    border-color: black;
+    background-color: rgba(24, 23, 23, 0.856);
+    border-radius: 30px 0px 0px 30px;
+}
+
+#apply_input_type{
+    width: 92%;
+    height: 42px;
+    padding-left: 20px;
+    font-style: italic;
+    outline: none;
+    font-size: 15px;
+}
+
+.apply_form h2{
+    font-size: 20px;
+    color: rgb(109, 107, 107);
+    padding: 15px 0px;
+    margin-bottom: 10px;
+}
+
+#apply_btn {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+}
+
+#apply_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.apply_input{
+    margin-bottom: 20px;
+}
+
+
+

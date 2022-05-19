@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+}
+
+.project-container{
+    width: 98.95vw;
+}
+
+/*********NAVBAR**********/
+
+ul {
+    list-style: none;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-btn a {
+    text-decoration: none;
+    color: #DFDFDF;
+    font-size: 16px;
+}
+
+.search-btn button{
+    height: 35px;
+    width: 65px;
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-btn input{
+    height: 35px;
+    width: 220px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-bottom-color: #A2586C;
+    border-top-color: #d3cbce;
+    border-left-color:#d3cbce;
+    box-shadow: 1px 1px 3px #CEB6BD inset;
+    outline: none;
+}
+
+#lica-img {
+    height: 60px;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.lica-navbar {
+    width: inherit;
+    height: 70px;
+    background-color: #8E0025;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    border: none;
+    background-color: inherit;
+    color: white;
+    outline: none;
+}
+
+
+.navbar-items{
+    display: flex;
+    margin-right: 40px;
+}
+
+.about-dropdown{
+    display: flex;
+}
+
+.navbar-items ul {
+    width: 520px;
+    margin-top: 10px;
+    padding-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+/*****home write-up and description*/
+
+.home-flex-1{
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 400px;
+    font-size: 18px;
+}
+
+#lica_image_girl{
+   width: 800px;
+   height: 500px; 
+}
+
+.home-icon{
+    display: flex;
+    padding: 40px 0;
+}
+
+.home-icon p {
+    margin-left: 30px;
+    color: #6B6B6B;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#how_it_work {
+    margin-left: 47px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.home-flex-2{
+    margin: 30px 0px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lica_image_girl-2{
+    width: 830px;
+    height: 500px; 
+ }
+ 
+.why-choose-us{
+    width: 350px;
+    margin: 75px 180px 0px 0px;
+}
+
+.why-choose-us h1{
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.recieve-money{
+    margin-top: 25px;
+}
+
+.recieve-money h3{
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.recieve-money p{
+    color: #6B6B6B;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/****HOME BOTTON AREA********/
+
+.empty_bottom_color{
+    height: 45px;
+   background: rgb(227, 194, 202);
+}
+
+.bottom_area{
+    height: 400px;
+    background-color: #ce93a2;
+}
+
+.bottom_writeup{
+    width: 650px;
+    height: inherit;
+    margin: auto;
+    display: grid;
+    align-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.bottom_writeup h1{
+    text-align: center;
+    font-size: 27px;
+}
+
+.bottom_writeup p {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-size: 22px;
+    text-align: center;
+    padding: 25px 0px 45px 0px;
+}
+
+#apply_btn{
+    background: #AE1F3D;
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+}
+
+.botton_area_btn{
+    display: grid;
+    justify-content: center;
+}
+
+#apply_btn a {
+    text-decoration: none;
+    color: #F7E9EB;
+}
+
+#hr {
+    padding: 15px;
+}
+/**********flex_footer*******/
+
+.flex_footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy_right p, ul li {
+    color: #ce93a2;
+}
+
+.flex_footer2 ul {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_footer2 li{
+    list-style-type: none;
+}
+
+.flex_footer2 li a {
+    text-decoration: none;
+    color: #ce93a2;
+}
+
+.footer_container{
+    padding-top: 25px;
+    height: 140px;
+}
+
+.footer_fontawesome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #b8223d;
+}
+
+.font_awesome_footer {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 22px;
+}
+
+

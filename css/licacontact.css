@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*************contact body description*****/
+
+.contact-body{
+    height: 1320px;
+}
+
+.background-img{
+    height: 500px;
+    background:  linear-gradient(to right, #46557c93 30%, #a8365698 70% ), 
+                    url(../image/dots.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background-img-write {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-write h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.new-write p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.contact-form{
+    padding: 75px 30px 120px 40px;
+    width: 65vw;
+    margin: auto;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-write {
+    line-height: 35px;
+    font-size: 28px;
+}
+
+#asterics{
+    color: red;
+}
+
+#first-name,#last-name,#email-name,
+#mobile-number{
+    width: 520px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-color: rgba(245, 243, 243, 0.685);
+    padding-left: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+#textarea{
+    width: 520px;
+    height: 250px;
+    padding: 10px 0px 0px 10px;
+    outline: none;
+    border-color: rgba(209, 209, 209, 0.76);
+}
+
+#form-action {
+    width: 520px;
+    padding-top: 40px;
+}
+
+#submit {
+    text-align: center;
+    background: #AE1F3D;
+    color: white;
+    padding: 5px 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#agree{
+    font-size:12px;
+}
+
+.submit-input {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-information{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact-info, .email-address, .location{
+    display: flex;
+    padding: 12px 0px 10px 7px;
+}
+
+#pad-p{
+    padding-left: 5px;
+    line-height: 23px;
+}
+
+#pad-hello{
+    padding: 3px 0px 0px 5px;
+    line-height: 23px;
+}
+
+#pad-h2{
+    padding-left:32px;
+    font-size: 20px;
+}
+
+#pad-h{
+    padding-left:30px;
+    font-size: 20px;
+}
+
+.fa-customize {
+    font-size: 33px;
+    background-color: white;
+}
+
+.fa-color{
+    color: #AE1F3D;
+}
+
+/********** THE MAP ******/
+
+.contact-map{
+    width: 1520px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom:100px;
+    box-shadow: 1px 1px 3px 3px gainsboro;
+}
+
+
+
+
+
+
+
+
+

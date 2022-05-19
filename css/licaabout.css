@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*********NAVBAR*******/
+
+#lica-img-about {
+    position: relative;
+    height: 60px;
+    width: 200px;
+}
+
+/**description home_about_container**********/
+.about_us_writeup{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.home_about_container{
+    height: 500px;
+    background-image:  linear-gradient(to right, #46557c6e 30%, #a8365698 70% ), url(../image/dots.png), url(../image/LicaMoneyCoin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.flex_about_img{
+    width: 500px;
+}
+
+/***********flex_aboutus*********/
+
+.flex_about_writeup{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.flex_about_writeup1{
+    width: 550px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.flex_about_writeup h1, .flex_about_writeup1 h1 {
+    font-size:34px;
+}
+
+.flex_about_writeup p, .flex_about_writeup1 p{
+    color: #6B6B6B;
+    line-height: 33px;
+}
+
+
+.flex_about_writeup1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex_about_writeup1 button {
+    width: 150px;
+    color: white;
+    background-color: #AE1F3D;
+    padding: 12px 0px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 900;
+}
+
+.flex_aboutus{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+
+/***********container about client******/
+
+.flex_about_client {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container_about_client {
+    padding: 50px 0px;
+    margin-top: 70px;
+    background-color: #001836;
+    color: white;
+}
+
+.about_client_say {
+    text-align: center;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.flex_about_writeup span {
+    color: rgb(50, 50, 245);
+}
+
+.flex_about_writeup h2 {
+    font-size: 18px;
+}
+
+.flex_about_writeup p {
+    font-size: 18px;
+}
+
+#regulate_font {
+    font-size:25px;
+    font-weight: bolder;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+/********logo section********/
+
+.logo_width{
+    width: 350px;
+}
+
+.logo_width h2 {
+    padding: 30px 0px;
+    line-height: 35px;
+}
+
+.logo_width p{
+    color: rgb(54,58,62);
+    line-height: 30px;
+}
+
+.logo_cbn h1{
+    color: rgb(44, 20, 20);
+}
+
+.logo_financial h1 {
+    color: #d32040;
+}
+
+.logo_peer h1{
+    color: gray;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+    padding-bottom: 100px;
+}
+
+#logo {
+    font: 60px;
+}
+
+.logo_apply {
+    display: flex;
+    color: #b8223d;
+    padding-top: 18px;
+}
+
+.fa-long-arrow-right{
+    padding: 0px 0px 0px 10px;
+}
+
+.fa-customize{
+    font-size: 30px;
+}
+
+
+
+/**********flex_footer*******/
+
+.flex_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.copy_right p, ul li {
+    color: #ce93a2;
+}
+
+.flex_footer2 ul {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex_footer2 li{
+    list-style-type: none;
+}
+
+.flex_footer2 li a {
+    text-decoration: none;
+    color: #ce93a2;
+}
+
+.footer_container{
+    height: 140px;
+}
+
+.footer_fontawesome {
+    display: flex;
+    justify-content: center;
+    color: #b8223d;
+}
+
+.font_awesome_footer {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}

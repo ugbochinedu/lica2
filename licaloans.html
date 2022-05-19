@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/licahome.css">
+    <link rel="stylesheet" href="css/licaabout.css">
+    <link rel="stylesheet" href="css/licaloans.css">
+    <link rel="icon" href="./image/licalogo.png">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loan-wrapper">
+
+        <!-- //******************************
+            NAVIGATION BAR 
+        ********************************// -->
+       
+        <div class="lica-navbar">
+            <div class="img-navbar">
+                <img src="image/licalogo.png" id="lica-img-about" alt="a logo image">
+            </div>
+            <div class="navbar-items">
+                <ul>                   
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">Loans</a></li>
+                    <form action="">
+                        <div class="about-dropdown">
+                            <label for=""><li><a href="http://">About</a></li></label>
+                            <select name="about" id="about">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </form>
+                    <li><a href="http://">Contact</a></li>                
+                </ul>    
+                <div class="search-btn">
+                    <input type="search" name="" id="navbar-search" placeholder="Search...">
+                    <button><a href="http://">Go!</a></button>
+                </div>          
+            </div>           
+        </div>
+
+        <!-- //*****************************************
+                BACKGROUND IMAGE FOR LOANS
+       *****************************************// -->
+
+        <div class="loan-background-image">
+            <div class="loans">
+                <h1>Loans</h1>
+                <p>Home / Loans</p>
+            </div>
+        </div>
+
+        <!-- //*********************************************
+            LOAN BODY DESCRIPTION
+        *********************************************// -->
+
+        <div class="description-container">
+            <div class="lica-flyer-img">
+                <div class="flyer-image">
+                    <img src="./image/licaflyer-removebg-preview.png" id="flyer-img" alt="">
+                </div>
+                <div class="playstore-image">
+                    <img src="./image/Playstore.jpg" id="playstore-img" alt="">
+                </div>
+            </div>
+            <div class="working-steps">
+                <h1>How it works</h1>
+                <h3 id="steps">Steps</h3>
+                <div class="money-in working-flex">
+                    <i class="fa fa-envelope-o fa-color fa-customize aria-hidden="true"></i>
+                    <div class="money-inhour">
+                        <h3>Money in 1 Hour!</h3>
+                        <p>Open the Google Play Store on your phone, search <span id="span">"Lica"</span> and hit the <span id="span">"download"</span> button!</p>
+                    </div>
+                </div>
+                <div class="register working-flex">
+                    <i class="fa fa-envelope-o fa-color fa-customize aria-hidden="true"></i>
+                    <div class="money-inhour">
+                        <h3>Register</h3>
+                        <p>sign up with your phone number, and account number in 1 minute</p>
+                    </div>
+                </div>
+                <div class="recieve-loan working-flex">
+                    <i class="fa fa-envelope-o fa-color fa-customize aria-hidden="true"></i>
+                    <div class="money-inhour">
+                        <h3>Receive a loan offer!</h3>
+                        <p>Recieve money within 60 minutes, if approved</p>
+                    </div>
+                </div>
+                <div class="recieve-payment working-flex">
+                    <i class="fa fa-envelope-o fa-color fa-customize aria-hidden="true"></i>
+                    <div class="money-inhour">
+                        <h3>Recieve Payment!</h3>
+                        <p>Share your bank details to recieve your loan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- //*********************************************************
+                    HOW MUCH DO YOU WANT TO BORROW?
+        *********************************************************// -->
+
+        <div class="how-much">
+            <h1>How much do you want to borrow?</h1>
+        </div>
+        <div class="payment-wrapper">
+            <div class="payment-container">
+                <div class="negative-positive flex-payment">
+                    <i class="fa fa-minus-circle fa-color fa-customize" aria-hidden="true"></i>
+                    <i class="fa fa-plus-circle fa-color fa-customize" aria-hidden="true"></i>
+                </div>
+                <div class="a-thousand">
+                    <P><span>&#8358</span>1000</P>
+                    <div>
+                        <hr id="line">
+                    </div>
+                </div>
+                <div class="twenty-thousand flex-payment">
+                    <p><span>&#8358</span>1000</p>
+                    <P><span>&#8358</span>20,000</P>
+                </div>
+                <div class="weekly-payment">
+                    <p>Weekly paymenys:<span>&#8358</span>100</p>
+                </div>
+            </div>
+            <div class="flex-payment-details flex-payment">
+                <div class="payment-writeup">
+                    <p>Loan Amount</p>
+                    <p>Interest Rate</p>
+                    <p>Total Amount Payable</p>
+                    <p>1st Installment Due</p>
+                </div>
+                <div class="numerical-payment">
+                    <P>NGN 00,000.00</P>
+                    <P>NGN 00.0%</P>
+                    <P>NGN 00,000.00</P>
+                    <P>3 days after approval</P>
+                </div>
+            </div>
+            <div class="apply-button">
+                <input type="submit" id="apply-right" value="APPLY RIGHT AWAY">
+                <input type="submit" id="see-other" value="SEE OTHER LOANS">
+            </div>
+        </div>
+
+        
+        <hr>
+
+        <!-- //*******************************************
+                        FOOTER 
+        ********************************************// -->
+
+        <div class="footer_container">
+            <div class="flex_footer">
+                <div class="copy_right">
+                    <p><i class="fa fa-copyright" aria-hidden="true">2019 Lica All Rights Reserved.</i> </p>
+                </div>
+                <div class="flex_footer2">
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Loans</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li>hello@getlica.com</li>
+                        <li>Telephone: +234 812 3456 789</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_fontawesome">
+                <div class="font_awesome_footer">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
